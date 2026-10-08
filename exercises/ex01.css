@@ -2,9 +2,9 @@ html {background-color: peachpuff;}
 
 A {color: lawngreen}
 
-UL {color: red}
+ol {color: red}
 
-h1{background-color: rgb(19, 32, 113); color: rgb(82, 172, 172); font-weight: normal;}
+h1{background-color: rgb(204, 7, 138); color: rgb(255, 24, 189); font-weight: normal;}
 
 P { color: rgb(114, 5, 114)}
 
@@ -18,3 +18,5 @@ font-size: 8px;
 IMG {display: Block;margin-left: auto;margin-right: auto;
 width: 50%;
 }
+
+#beyonce { width: 30%; }
