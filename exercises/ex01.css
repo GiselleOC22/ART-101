@@ -20,3 +20,7 @@ width: 50%;
 }
 
 #beyonce { width: 30%; }
+
+.highlight_01 {background-color:rgb(145, 212, 20);}
+.highlight_01 strong {}
+.highlight_02 {background-color:aquamarine;}
