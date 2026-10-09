@@ -1,6 +1,7 @@
 html {background-color: peachpuff;}
 
 A {color: lawngreen}
+A:hover {background-color: blueviolet;}
 
 ol {color: red}
 
@@ -10,11 +11,11 @@ P { color: rgb(114, 5, 114)}
 
 p {background-color:cornsilk;
 padding: 20px; 
-margin: 50px;
+margin: 50px; 
 font-size: 8px;
 
 }
-
+ol:hover {background-color:darkblue;}
 IMG {display: Block;margin-left: auto;margin-right: auto;
 width: 50%;
 }
@@ -22,5 +23,5 @@ width: 50%;
 #beyonce { width: 30%; }
 
 .highlight_01 {background-color:rgb(145, 212, 20);}
-.highlight_01 strong {}
+.highlight_01 strong {background-color:chartreuse}
 .highlight_02 {background-color:aquamarine;}
