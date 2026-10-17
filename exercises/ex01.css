@@ -1,32 +1,110 @@
-html {background-color: peachpuff;}
-
-A {color: lawngreen}
-A:hover {background-color: blueviolet;}
-
-ol {color: red}
-ol:hover {background-color: purple;}
-h1{background-color: rgb(204, 7, 138); color: rgb(255, 24, 189); font-weight: normal;}
-
-P { color: rgb(114, 5, 114)}
-
-p {background-color:cornsilk;
-padding: 20px; 
-margin: 50px; 
-font-size: 8px;
-
-}
-IMG {display: Block;margin-left: auto;margin-right: auto;
-width: 50%;
+HTML {
+    background-color: peachpuff;
 }
 
-#beyonce { width: 30%; }
 
-.highlight_01 {background-color:rgb(145, 212, 20);}
-.highlight_01 strong {background-color:chartreuse}
-.highlight_02 {background-color:aquamarine;}
-#main {background-color: azure; padding:50px; margin: 100px;
-box-shadow: #fff 0 -1px 4px,#ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 44px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+A {
+    color: lawngreen
 }
-#gallery { display: flex; flex-wrap: wrap; align-items: flex-start; row-gap: 30px;column-gap: 50px;}
-#gallery IMG {width:300px}
-#gallery DIV {background-color: #c1fffd8b}
+
+A:hover {
+    color: aqua;
+    background: rgb(19, 32, 113)
+}
+
+UL {
+    color: red;
+}
+
+h1 {
+    background-color: rgb(19, 32, 113);
+    color: rgb(82, 172, 172);
+    font-weight: normal;
+}
+
+P {
+    background-color: cornsilk;
+    padding: 20px;
+    margin: 50px;
+
+}
+
+IMG {
+    display: block;
+
+
+
+}
+
+IMG:hover {
+    width: 70%;
+    transition: linear 1000ms;
+}
+
+#beyonce {
+    width: 70%;
+}
+
+.highlight_01 {
+    background-color: palevioletred;
+}
+
+.highlight_01:hover {
+    background-color: rgb(220, 81, 197);
+}
+
+.highlight_01 strong {
+    background-color: rgb(251, 177, 202);
+}
+
+.highlight_02 {
+    background-color: yellowgreen;
+}
+
+#main {
+    background-color: azure;
+    padding: 50px;
+    margin: 100px;
+    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+border-radius: 100px;
+}
+
+#gallery { display: flex; flex-wrap: wrap;   align-items: flex-start; row-gap: 30px; column-gap: 50px;}
+#gallery IMG { width: 300px}
+
+#gallery DIV {background: blue; padding: 30px; border-radius: 30px;}
+
+#gallery DIV P {background: none; padding: none; margin: none;}
+
+/* home page styles  */
+
+#pan-home { position: relative; height: 100vh ;}
+
+#chicken { position: absolute; bottom: 10px; left: 40%;} 
+
+#chicken2 { position: absolute; bottom: 50px; right: 10vw;}
+
+#chicken3 { position: absolute; bottom: 50px; left: 100px;}
+
+#homelink { position: absolute; top: 50px; right: 50px;}
+
+#homelink IMG { width: 40px;}
+
+
+.bitcount-ink-<uniquifier> {
+  font-family: "Bitcount Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
