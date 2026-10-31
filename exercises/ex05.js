@@ -63,13 +63,27 @@ $("#needy-button").click( function(){
 
 $("#green").click( function(){
     
-    console.log("green was clicked")
-    paintPage("green")
+    console.log("green was clicked");
+    paintPage("green");
     
 });
 
 $("#orange").click( function(){
 
     console.log("orange was clicked");
+    paintPage("orange");
+});
+
+$("#pink").click( function (){
+
+    console.log("pink was clicked");
+    paintPage("pink");
+
+});
+
+$(".color-circle").click( function(){
+
+    console.log("a circle was clicked");
+    paintPage(this.id);
 
 });
