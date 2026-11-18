@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Final Project (Prototype and Try) </title>
+    <link rel="stylesheet" href="fp.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="fp.js" defer></script>
+</head>
+<body>
+<!-- Visible initially -->
+<h1><p id="intro-text">Guess Your College</p></h1>
+<button id="startbutton" onclick="startButton()">START</button>
+
+<!-- Hidden initially using inline CSS -->
+<div id="game-screen" style="display: none;">
+  <h2>Pick One of the Five UCSC Academic Divisions</h2>
+            <button onclick="answer('Art')">Art</button>
+            <button onclick="answer('Baskin Engineering')">Baskin Engineering</button>
+            <button onclick="answer('Humanities')">Humanities</button>
+            <button onclick="answer('Physical & Biological Sciences')">Physical & Biological Sciences</button>
+            <button onclick="answer('Social Sciences')">Social Sciences</button>
+</div>
+
+<script>
+  // 1. Select all elements
+  const startButton = document.getElementById('startbutton');
+  const introText = document.getElementById('intro-text');
+  const gameScreen = document.getElementById('game-screen');
+
+  // 2. Listen for the Start button click
+  startButton.addEventListener('click', () => {
+    // Hide the intro elements
+    introText.style.display = 'none';
+    startButton.style.display = 'none';
+
+    // Show the previously hidden element
+    gameScreen.style.display = 'block';
+  });
+</script>
