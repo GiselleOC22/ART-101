@@ -1,14 +1,8 @@
-function startButton() {
-  document.getElementById('start-btn').classList.add('hidden');
-  document.getElementById('questionbox').classList.remove('hidden');
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
 }
-
-function selectAnswer(choice) {
-  document.getElementById('questionbox').classList.add('hidden');
-  
-  const resultDiv = document.getElementById('answerbox');
-  const resultText = document.getElementById('textanswer');
-  
-
-}
-
